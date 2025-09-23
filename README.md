@@ -1,5 +1,5 @@
 # Analytica-Portfolio
-##Data Analytics Portfolio
+Data Analytics Portfolio
 
 I am a data analyst with a background in business administration and experience across the retail, fashion apparel, and insurance industries. I enjoy drawing data from different sources, organizing it, and turning it into insights that drive impact — from improving decision-making and identifying opportunities to enhancing customer experience and supporting business growth.
 
