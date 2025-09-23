@@ -23,7 +23,7 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Business Problem:** The supermarket lack an understanding of their customer demographics, the products they purchase and the efficacy of their advertising channels. They also lack understanding of how these forces intersect.
 
-**Presentation:** [pdf](https://https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/2Market%20Customer%20Analysis.pdf).
+**Presentation:** [2Market Customer Analysis](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/2Market%20Customer%20Analysis.pdf).
  
 **Description:** A project focussed on exploring the customer demographics of a supermarket retailer as well as explaining customer behaviour and their responsivity to different advertisements. The dataset contained several thousand rows of customer data, including customer id, information on age, marriage status, family size, income level, nationality, online/in store preference and the proclivity to respond to advertisements. An additional dataset included a record of advertisements served via different mediums (mail/X/Instagram/Facebook). The data was initially cleaned and explored using Excel, further wrangled and explored using PostgreSQL and finally loaded into Tableau. Several dashboards were created to answer key business questions related to the problem statement.
 
