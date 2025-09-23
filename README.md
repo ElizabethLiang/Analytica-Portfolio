@@ -39,3 +39,22 @@ In this section I will list data analytics projects briefly describing the techn
 - The Customer: I advised the supermarket to foster relationships with those in their thirties and to sell to those between 45 and 75. Couples and families were the most lucrative demographic.
 - The product: I recommended focussing in on two categories of item, as these were the most popular, regardless of country or online/in store.
 - Advertisements: Presented insights around which advert mediums are most successful with each demographic, especially around age, education and family size.
+
+### NHS Capacity Analysis
+
+**Business Problem:** The NHS has finite resources. In order to meet patient demand, the NHS must ascertain whether capacity must be expanded, or whether demand can be met by reallocating existing resources.
+
+**Code:** [NHS_Capacity_Analysis.ipynb](https://github.com/ARHilton/Data-Analysis-Portfolio/blob/main/NHS_Capacity_Analysis.ipynb)
+
+**Presentation:** [pdf](https://github.com/ARHilton/Data-Analysis-Portfolio/blob/main/NHS_Capacity_Analysis_Slides.pdf).
+
+**Description:** The project sought to answer the question, "if NHS capacity was sufficient, what would it look like?", by drawing from NHS targets, namely: seeing patients within 14 days of booking, allocating 15 minutes per patient consultation and for attendance to be as high as possible. The dataset contained several hundred thousand rows of appointment data, ranging from January 2020 to June 2022 and included information on ICB (locality), consultation types and attendance. The data was cleaned and wrangled using Python library, and visualisations created using seaborn and matplotlib.
+
+**Skills:** Data cleaning & wrangling, exploratory & descriptive analysis, structured thinking frameworks, formulating a problem statement, creating visualisations, presenting insights and recommendations.
+
+**Technology:** Python: Pandas, Numpy, Seaborn, Matplotlib.
+
+**Results:** Presented a range of insights and recommendations, supported by visualisations, namely:
+- Patients were generally seen within 14 days and attended appointments at a very high rate. The main area of failure was appointment time allocated to each patient, symptomatic of a lack of staff.
+- Adjusting the modality of appointments, depending on lag time between booking and consultation, to increase chance of attendance. Telephone consultations are well attended regardless of lag time.
+- Attendance rate was greater in ICBs with fewer resources, suggesting an awareness and respect among the public for NHS resources.
