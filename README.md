@@ -1,5 +1,4 @@
 # Analytica-Portfolio
-Data Analytics Portfolio
 
 ## About Me
 
