@@ -36,11 +36,11 @@ In this section I will list data analytics projects briefly describing the techn
 **Technology:** Excel, PostgreSQL, Tableau.
 
 **Results:** Presented a range of business recommendations, including:
--Reallocate spend to digital (Facebook/Instagram/email/X); reduce/phase out brochures and reinvest to high-ROI channels.
--Segmented targeting of 32–48, partnered customers with family/bulk offers; U.S. singles campaign with individualized bundles and loyalty perks.
--Product bundling: prioritize Alcohol & Meat bundles for >$60K income segments; cross-sell secondary categories.
--Market focus: deepen penetration in Spain, then South Africa and Canada where returns are strongest.
--Track weekly (acquisition, conversion, CAC/ROAS) and run A/B tests via the dashboard.
+- Reallocate spend to digital (Facebook/Instagram/email/X); reduce/phase out brochures and reinvest to high-ROI channels.
+- Segmented targeting of 32–48, partnered customers with family/bulk offers; U.S. singles campaign with individualized bundles and loyalty perks.
+- Product bundling: prioritize Alcohol & Meat bundles for >$60K income segments; cross-sell secondary categories.
+- Market focus: deepen penetration in Spain, then South Africa and Canada where returns are strongest.
+- Track weekly (acquisition, conversion, CAC/ROAS) and run A/B tests via the dashboard.
 
 ### NHS Capacity Analysis
 
