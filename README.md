@@ -44,11 +44,13 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Business Problem:** The NHS has finite resources. In order to meet patient demand, the NHS must ascertain whether capacity must be expanded, or whether demand can be met by reallocating existing resources.
 
-**Report:** [pdf](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/NHS_Capacity_Analysis_Report.pdf).
+**Report:** [NHS_Capacity_Analysis](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/NHS_Capacity_Analysis_Report.pdf).
 
-**Code:** [NHS_Capacity_Analysis.ipynb](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/NHS_Capacity_Analysis.ipynb).
+**Code:** [ipynb](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/NHS_Capacity_Analysis.ipynb).
 
-**Presentation:** [pdf](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/NHS_Capacity_Analysis_PPTX.pdf).
+**Presentation:** [PPTX](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/NHS_Capacity_Analysis_PPTX.pdf).
+
+**Recording:** [View on Canva](https://www.canva.com/design/DAGz2A_FVOo/JBoYR37Pc1JYv69DkqyGIg/edit?utm_content=DAGz2A_FVOo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 **Description:** The project sought to answer the question, "if NHS capacity was sufficient, what would it look like?", by drawing from NHS targets, namely: seeing patients within 14 days of booking, allocating 15 minutes per patient consultation and for attendance to be as high as possible. The dataset contained several hundred thousand rows of appointment data, ranging from January 2020 to June 2022 and included information on ICB (locality), consultation types and attendance. The data was cleaned and wrangled using Python library, and visualisations created using seaborn and matplotlib.
 
