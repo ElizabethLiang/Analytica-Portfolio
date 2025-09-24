@@ -21,7 +21,7 @@ In this section I will list data analytics projects briefly describing the techn
 
 ### Supermarket Customer Analysis
 
-**Business Problem:** The supermarket lack an understanding of their customer demographics, the products they purchase and the efficacy of their advertising channels. They also lack understanding of how these forces intersect.
+**Problem Statement:** The supermarket lacked clear visibility into its customer demographics, product preferences, and advertising-channel effectiveness—and how these dimensions intersected. In other words, there was no integrated view to show who buys what, through which channel, and where to invest for impact.
 
 **Project Report:** [2Market Customer Analysis](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/2Market%20Customer%20Analysis.pdf).
 
@@ -29,16 +29,18 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Tableau:** [Viz & Dashboard](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/2%20Market%20Viz.twbx).
 
-**Description:** A project focussed on exploring the customer demographics of a supermarket retailer as well as explaining customer behaviour and their responsivity to different advertisements. The dataset contained several thousand rows of customer data, including customer id, information on age, marriage status, family size, income level, nationality, online/in store preference and the proclivity to respond to advertisements. An additional dataset included a record of advertisements served via different mediums (mail/X/Instagram/Facebook). The data was initially cleaned and explored using Excel, further wrangled and explored using PostgreSQL and finally loaded into Tableau. Several dashboards were created to answer key business questions related to the problem statement.
+**Description:** A project focussed on exploratory analysis and Tableau dashboard to optimize 2Market’s marketing spend across countries, channels, and customer segments. Focused on identifying who buys, what they buy, and which channels convert—so leaders can reallocate budget for higher ROAS and revenue. The project used a dataset with several thousand customer records—covering customer ID, age, marital status, family size, income, nationality, online vs. in-store preference, and ad responsiveness—plus a separate file tracking ads delivered across channels (mail, X, Instagram, Facebook, brochure). I performed initial cleaning and exploration in Excel, did deeper wrangling and analysis in PostgreSQL, then loaded the data into Tableau. There, I built multiple dashboards to address the core business questions from the problem statement.
 
 **Skills:** Data cleaning, dealing with outliers, exploratory analysis, structured thinking frameworks, formulating a problem statement, creating visualisations, presenting insights and recommendations.
 
 **Technology:** Excel, PostgreSQL, Tableau.
 
 **Results:** Presented a range of business recommendations, including:
-- The Customer: I advised the supermarket to foster relationships with those in their thirties and to sell to those between 45 and 75. Couples and families were the most lucrative demographic.
-- The product: I recommended focussing in on two categories of item, as these were the most popular, regardless of country or online/in store.
-- Advertisements: Presented insights around which advert mediums are most successful with each demographic, especially around age, education and family size.
+-Reallocate spend to digital (Facebook/Instagram/email/X); reduce/phase out brochures and reinvest to high-ROI channels.
+-Segmented targeting of 32–48, partnered customers with family/bulk offers; U.S. singles campaign with individualized bundles and loyalty perks.
+-Product bundling: prioritize Alcohol & Meat bundles for >$60K income segments; cross-sell secondary categories.
+-Market focus: deepen penetration in Spain, then South Africa and Canada where returns are strongest.
+-Track weekly (acquisition, conversion, CAC/ROAS) and run A/B tests via the dashboard.
 
 ### NHS Capacity Analysis
 
