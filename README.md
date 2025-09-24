@@ -44,9 +44,11 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Business Problem:** The NHS has finite resources. In order to meet patient demand, the NHS must ascertain whether capacity must be expanded, or whether demand can be met by reallocating existing resources.
 
-**Code:** [NHS_Capacity_Analysis.ipynb](https://github.com/ARHilton/Data-Analysis-Portfolio/blob/main/NHS_Capacity_Analysis.ipynb)
+**Report:** [pdf](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/NHS_Capacity_Analysis_Report.pdf).
 
-**Presentation:** [pdf](https://github.com/ARHilton/Data-Analysis-Portfolio/blob/main/NHS_Capacity_Analysis_Slides.pdf).
+**Code:** [NHS_Capacity_Analysis.ipynb](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/NHS_Capacity_Analysis.ipynb).
+
+**Presentation:** [pdf](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/NHS_Capacity_Analysis_PPTX.pdf).
 
 **Description:** The project sought to answer the question, "if NHS capacity was sufficient, what would it look like?", by drawing from NHS targets, namely: seeing patients within 14 days of booking, allocating 15 minutes per patient consultation and for attendance to be as high as possible. The dataset contained several hundred thousand rows of appointment data, ranging from January 2020 to June 2022 and included information on ICB (locality), consultation types and attendance. The data was cleaned and wrangled using Python library, and visualisations created using seaborn and matplotlib.
 
