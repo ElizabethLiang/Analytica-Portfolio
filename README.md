@@ -61,16 +61,14 @@ In this section I will list data analytics projects briefly describing the techn
 **Technology:** Python: Pandas, Numpy, Seaborn, Matplotlib.
 
 **Results:** Presented a range of insights and recommendations, supported by visualisations, namely:
-- Demand & timing: Appointments swing by season—autumn is busiest, spring/summer are quieter. Mondays are the heaviest day; weekends are light (Sundays closed; some Saturday spikes in autumn).
+- Appointments swing by season—autumn is busiest, spring/summer are quieter. Mondays are the heaviest day; weekends are light (Sundays closed; some Saturday spikes in autumn).
 
-- Capacity fit: On average, capacity looked okay, but at peak times (especially autumn/winter) the combined demand can exceed capacity by ~10%, creating pressure points.
+- On average, Capacity appeared to be sufficient, but at peak times (especially autumn/winter) the combined demand can exceed capacity by ~10%, creating pressure points.
 
-- Who delivers care: GPs handle ~50% of appointments; other practice staff ~47%, and at times outpace GPs—they’re critical to throughput.
+- GPs handle ~50% of appointments; other practice staff ~47%, and at times outpace GPs—they’re critical to throughput.
 
-- Attendance: >90% show up, about 5% don’t, and ~4% of records are unclear, which makes it harder to manage missed appointments.
+- Regarding attendance >90% show up, about 5% don’t, and ~4% of records are unclear, which makes it harder to manage missed appointments.
 
-- How care is delivered: ~60% face-to-face, telephone is the next biggest and most steady. Home/video together are underused (<10%).
+- Care Modality: ~60% face-to-face, telephone is the next biggest and most steady. Home/video together are underused (<10%).
 
-- Wait times: 45% are seen the same day; 85% within two weeks. ~7% wait over three weeks, which increases the risk of cancellations or no-shows.
-
-**Bottom line** Average capacity is fine, but peak weeks overflow. Focus staffing and scheduling on early-week, autumn/winter peaks and use phone/home/video more to smooth demand.
+**Bottom line:** Average capacity is fine, but peak weeks overflow. Focus staffing and scheduling on early-week, autumn/winter peaks and use phone/home/video more to smooth demand.
