@@ -44,7 +44,7 @@ In this section I will list data analytics projects briefly describing the techn
 
 ### NHS Capacity Analysis
 
-**Business Problem:** The NHS has finite resources. In order to meet patient demand, the NHS must ascertain whether capacity must be expanded, or whether demand can be met by reallocating existing resources.
+**Business Problem:** The NHS must balance the needs of a growing population with finite resources. Leaders need a clear, integrated view of demand seasonality, capacity utilization, attendance, and care modality to inform resource allocation and access policy.
 
 **Report:** [NHS_Capacity_Analysis](https://github.com/ElizabethLiang/Analytica-Portfolio/blob/main/NHS_Capacity_Analysis_Report.pdf).
 
@@ -54,13 +54,23 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Recording:** [View on Canva](https://www.canva.com/design/DAGz2A_FVOo/JBoYR37Pc1JYv69DkqyGIg/edit?utm_content=DAGz2A_FVOo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
-**Description:** The project sought to answer the question, "if NHS capacity was sufficient, what would it look like?", by drawing from NHS targets, namely: seeing patients within 14 days of booking, allocating 15 minutes per patient consultation and for attendance to be as high as possible. The dataset contained several hundred thousand rows of appointment data, ranging from January 2020 to June 2022 and included information on ICB (locality), consultation types and attendance. The data was cleaned and wrangled using Python library, and visualisations created using seaborn and matplotlib.
+**Description:** The analysis set out to determine what “sufficient NHS capacity” would look like by benchmarking against NHS targets: patients seen within 14 days of booking, 15 minutes per consultation, and maximised attendance. It used several hundred thousand appointment records from January 2020 to June 2022, including ICB (locality), consultation type, and attendance fields. The dataset was cleaned and transformed in Python, and insights were visualised with Matplotlib and Seaborn.
 
 **Skills:** Data cleaning & wrangling, exploratory & descriptive analysis, structured thinking frameworks, formulating a problem statement, creating visualisations, presenting insights and recommendations.
 
 **Technology:** Python: Pandas, Numpy, Seaborn, Matplotlib.
 
 **Results:** Presented a range of insights and recommendations, supported by visualisations, namely:
-- Patients were generally seen within 14 days and attended appointments at a very high rate. The main area of failure was appointment time allocated to each patient, symptomatic of a lack of staff.
-- Adjusting the modality of appointments, depending on lag time between booking and consultation, to increase chance of attendance. Telephone consultations are well attended regardless of lag time.
-- Attendance rate was greater in ICBs with fewer resources, suggesting an awareness and respect among the public for NHS resources.
+- Demand & timing: Appointments swing by season—autumn is busiest, spring/summer are quieter. Mondays are the heaviest day; weekends are light (Sundays closed; some Saturday spikes in autumn).
+
+- Capacity fit: On average, capacity looked okay, but at peak times (especially autumn/winter) the combined demand can exceed capacity by ~10%, creating pressure points.
+
+- Who delivers care: GPs handle ~50% of appointments; other practice staff ~47%, and at times outpace GPs—they’re critical to throughput.
+
+- Attendance: >90% show up, about 5% don’t, and ~4% of records are unclear, which makes it harder to manage missed appointments.
+
+- How care is delivered: ~60% face-to-face, telephone is the next biggest and most steady. Home/video together are underused (<10%).
+
+- Wait times: 45% are seen the same day; 85% within two weeks. ~7% wait over three weeks, which increases the risk of cancellations or no-shows.
+
+**Bottom line** Average capacity is fine, but peak weeks overflow. Focus staffing and scheduling on early-week, autumn/winter peaks and use phone/home/video more to smooth demand.
