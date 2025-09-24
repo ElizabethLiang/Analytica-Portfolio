@@ -35,7 +35,7 @@ In this section I will list data analytics projects briefly describing the techn
 
 **Technology:** Excel, PostgreSQL, Tableau.
 
-**Results:** Presented a range of business recommendations, including:
+**Results:** Outlined a set of strategic, actionable recommendations, including:
 - Reallocate spend to digital (Facebook/Instagram/email/X); reduce/phase out brochures and reinvest to high-ROI channels.
 - Segmented targeting of 32–48, partnered customers with family/bulk offers; U.S. singles campaign with individualized bundles and loyalty perks.
 - Product bundling: prioritize Alcohol & Meat bundles for >$60K income segments; cross-sell secondary categories.
